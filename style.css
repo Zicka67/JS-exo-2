@@ -15,6 +15,7 @@
     height: 200px;
     background-color: rgb(18, 217, 34);
     color: white;
+    transition: transform 2s ease-in-out;
 }
 
 .square p {
@@ -23,4 +24,9 @@
     font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.modif {
+    background-color: rgb(231, 29, 29);
+    transform: rotate(360deg);
 }
